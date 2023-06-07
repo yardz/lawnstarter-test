@@ -1,0 +1,15 @@
+.button {
+    padding: 8px;
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+
+    border: solid 1px #0ab463;
+    background-color: #0ab463;
+
+    &:disabled {
+        border: solid 1px #c4c4c4;
+        background-color: #c4c4c4;
+    }
+}

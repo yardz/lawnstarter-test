@@ -1,0 +1,45 @@
+@import '../card/card.module.scss';
+
+.movieDetails {
+    width: calc(804px - ($card-padding * 2));
+    margin: 0 auto;
+
+
+    .title {
+        width: 100%;
+        margin-bottom: 30px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #000;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        min-height: 248px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        color: #000;
+
+        &>div {
+            width: 322px;
+            white-space: pre-line;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            font-weight: 700;
+            color: #000;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #c4c4c4;
+            margin-bottom: 5px;
+        }
+
+        .link {
+            font-size: 14px;
+            color: #0094ff;
+            text-decoration: none;
+        }
+
+    }
+}

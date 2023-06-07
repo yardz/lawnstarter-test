@@ -1,0 +1,29 @@
+@import '../card/card.module.scss';
+
+.searchResults {
+    width: calc(582px - ($card-padding * 2));
+
+    .title {
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #000;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #c4c4c4;
+        margin-bottom: 10px;
+    }
+
+    .empty {
+        width: 100%;
+        display: flex;
+        min-height: 509px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        font-size: 14px;
+        font-weight: 700;
+        color: #c4c4c4;
+    }
+}

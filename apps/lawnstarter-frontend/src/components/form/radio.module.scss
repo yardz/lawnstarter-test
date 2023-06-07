@@ -1,0 +1,21 @@
+.group {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 30px;
+
+    .radio {
+        cursor: pointer;
+        width: 16px;
+        height: 16px;
+        margin: 0px 10px 0px 0px;
+        padding: 6px;
+        background-color: #0094ff;
+    }
+
+    .label {
+        cursor: pointer;
+        font-weight: 700;
+        color: #000;
+    }
+}
